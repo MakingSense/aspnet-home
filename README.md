@@ -2,9 +2,35 @@
 
 The AspNet-Home repository is the starting point for people to learn about MakingSense ASP.NET 5 libraries. 
 
-Pre-release NuGet feed: <https://ci.appveyor.com/nuget/makingsense-aspnet> (authentincated, user: `dtru+read@makingsense.com`, password: `4@pdw@BlfpQn`)
+## Pre-release NuGet feed
 
-Our ASP.NET 5 Open Source projects:
+<https://ci.appveyor.com/nuget/makingsense-aspnet> (authentincated)
+
+Authentication: 
+* user: `dtru+read@makingsense.com`
+* password: `4@pdw@BlfpQn`
+
+`NuGet.config` file example:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<packageSources>
+		<clear />
+		<add key="api.nuget.org" value="https://api.nuget.org/v3/index.json" />
+		<add key="aspnetrelease" value="https://www.myget.org/F/aspnetrelease/api/v2" />
+		<add key="makingsense-aspnet" value="https://ci.appveyor.com/nuget/makingsense-aspnet" />
+	</packageSources>
+	<packageSourceCredentials>
+		<makingsense-aspnet>
+			<add key="Username" value="dtru+read@makingsense.com" />
+			<add key="ClearTextPassword" value="4@pdw@BlfpQn" />
+		</makingsense-aspnet>
+	</packageSourceCredentials>
+</configuration>
+```
+
+## Our ASP.NET 5 Open Source projects
 
 * **aspnet-hypermedia-api-seed** - Hypermedia API Seed
     * [Sources](https://github.com/MakingSense/aspnet-hypermedia-api-seed)
