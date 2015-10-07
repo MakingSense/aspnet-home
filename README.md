@@ -6,7 +6,10 @@ Pre-release NuGet feed: <https://ci.appveyor.com/nuget/makingsense-aspnet> (auth
 
 Our ASP.NET 5 Open Source projects:
 
-* [Hypermedia API Helpers](https://github.com/MakingSense/aspnet-hypermedia-api)
+* aspnet-hypermedia-api - Hypermedia API Helpers
+    * [Sources](https://github.com/MakingSense/aspnet-hypermedia-api)
+    * [CI](https://ci.appveyor.com/project/makingsense-aspnet/aspnet-hypermedia-api)
+    * [Pre-release NuGet feed](https://ci.appveyor.com/nuget/aspnet-hypermedia-api)
 * [Hypermedia API Seed](https://github.com/MakingSense/aspnet-hypermedia-api-seed)
 * aspnet-documentation-middleware - Documentation Middleware
     * [Sources](https://github.com/MakingSense/aspnet-documentation-middleware)
