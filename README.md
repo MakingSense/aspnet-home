@@ -6,14 +6,18 @@ Pre-release NuGet feed: <https://ci.appveyor.com/nuget/makingsense-aspnet> (auth
 
 Our ASP.NET 5 Open Source projects:
 
-* aspnet-hypermedia-api - Hypermedia API Helpers
+* **aspnet-hypermedia-api-seed** - Hypermedia API Seed
+    * [Sources](https://github.com/MakingSense/aspnet-hypermedia-api-seed)
+* **aspnet-hypermedia-api** - Hypermedia API Helpers
     * [Sources](https://github.com/MakingSense/aspnet-hypermedia-api)
     * [CI](https://ci.appveyor.com/project/makingsense-aspnet/aspnet-hypermedia-api)
     * [Pre-release NuGet feed](https://ci.appveyor.com/nuget/aspnet-hypermedia-api)
-* [Hypermedia API Seed](https://github.com/MakingSense/aspnet-hypermedia-api-seed)
-* aspnet-documentation-middleware - Documentation Middleware
+* **aspnet-documentation-middleware** - Documentation Middleware
     * [Sources](https://github.com/MakingSense/aspnet-documentation-middleware)
     * [CI](https://ci.appveyor.com/project/makingsense-aspnet/aspnet-documentation-middleware)
     * [Pre-release NuGet feed](https://ci.appveyor.com/nuget/aspnet-documentation-middleware) 
-* [Simple Authentication Middleware](https://github.com/MakingSense/aspnet-authentication-simpletoken)
+* **aspnet-authentication-simpletoken** - Simple Authentication Middleware
+    * [Sources](https://github.com/MakingSense/aspnet-authentication-simpletoken)
+    * [CI](https://ci.appveyor.com/project/makingsense-aspnet/aspnet-authentication-simpletoken)
+    * [Pre-release NuGet feed](https://ci.appveyor.com/nuget/aspnet-authentication-simpletoken)
 
