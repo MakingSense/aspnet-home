@@ -2,7 +2,7 @@
 
 The AspNet-Home repository is the starting point for people to learn about MakingSense ASP.NET 5 libraries. 
 
-Pre-release NuGet feed: <https://ci.appveyor.com/nuget/makingsense-aspnet>
+Pre-release NuGet feed: <https://ci.appveyor.com/nuget/makingsense-aspnet> (authentincated, user: `dtru+read@makingsense.com`, password: `4@pdw@BlfpQn`)
 
 Our ASP.NET 5 Open Source projects:
 
